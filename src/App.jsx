@@ -33,7 +33,7 @@ export default function App() {
     key={location.pathname}
     timeout={300}
     classNames="fade"
-    nodeRef={nodeRef} // ✅ Solución aquí
+    nodeRef={nodeRef} 
     unmountOnExit
   >
     <div ref={nodeRef}>
