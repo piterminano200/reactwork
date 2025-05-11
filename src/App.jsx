@@ -5,7 +5,7 @@ import ErrorBoundary from './components/ErrorBoundary';
 import { CSSTransition, SwitchTransition } from 'react-transition-group';
 import { useRef } from 'react';
 
-import './styles/transitions.css'; // ⬅️ añadiremos esto
+import './styles/transitions.css'; 
 
 const Home = lazy(() => import('./pages/home'));
 const Buscar = lazy(() => import('./pages/buscar'));
